@@ -1,5 +1,5 @@
 ---
-name: Issue Log
+name: Issue Log2
 about: Log Issues
 title: Issue Log
 labels: ''
