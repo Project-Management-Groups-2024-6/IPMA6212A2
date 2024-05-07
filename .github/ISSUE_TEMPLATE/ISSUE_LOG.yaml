@@ -1,0 +1,53 @@
+name: Issue Log
+description: File a bug report.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+projects: ["octo-org/1", "octo-org/44"]
+assignees:
+  - octocat
+body:
+  - type: textarea
+    id: issue-name
+    attributes:
+      label: Issue name
+      description: Enter the name of the issue.
+      placeholder: Name of the issue
+    validations:
+      required: true
+  - type: input
+    id: assignees
+    attributes:
+      label: Assignees
+      description: Who will work on this issue?
+      placeholder: GitHub username(s)
+    validations:
+      required: true
+  - type: input
+    id: labels
+    attributes:
+      label: Labels
+      description: Add labels to categorize this issue.
+      placeholder: bug, enhancement, etc.
+  - type: input
+    id: projects
+    attributes:
+      label: Projects
+      description: Assign this issue to specific project boards.
+      placeholder: octo-org/1, octo-org/44
+  - type: dropdown
+    id: milestones
+    attributes:
+      label: Milestones
+      description: Assign this issue to a milestone.
+      options:
+        - Project Kickoff
+        - Requirements Phase
+        - Design Phase
+        - Development Phase
+        - Testing Phase
+        - Documentation Phase
+        - Training Phase
+        - Marketing Phase
+        - Launch Phase
+        - Post-Launch Phase
+        - Closure Phase
