@@ -1,4 +1,4 @@
-name: Issue Log1
+name: Issue Log
 description: File a bug report.
 title: "[Bug]: "
 labels: ["bug", "triage"]
